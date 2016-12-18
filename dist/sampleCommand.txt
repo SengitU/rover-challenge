@@ -1,0 +1,19 @@
+const marsRover = new MarsRover(5,5);
+
+marsRover.addRover(1,2,'N');
+
+marsRover.sendCommand('LMLMLMLMM');
+
+marsRover.addRover(3,3,'E');
+
+marsRover.sendCommand('MMRMMRMRRM');
+
+marsRover.addRover(7,1,'N');
+
+marsRover.sendCommand('LMLMLMLMM');
+
+marsRover.addRover(5,5,'N');
+
+marsRover.sendCommand('MMMMMMMMMM');
+
+marsRover.getFinalPositions();
